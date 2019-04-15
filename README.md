@@ -168,7 +168,7 @@ Stores `Array` of `Book`s.
 
 ## Files Structure:
 ```
-./nheintai/
+./nhentai/
 	API.js
 	
 	Book.js
