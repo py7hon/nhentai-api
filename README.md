@@ -7,6 +7,7 @@ add bypass CORS and many proxy server for blocked country.
 
 ### `search(query, page, sort)`
 Returns `Search` URL by query.
+
 Parameter | Required | Default value | Description
 --------- | -------- | ------------- | -----------
 `query` | + | | Search query, see more at https://nhentai.net/info
@@ -15,6 +16,7 @@ Parameter | Required | Default value | Description
 
 ### `searchLike(book_id, page, sort)`
 Returns `Search` URL for related to book's ID.
+
 Parameter | Required | Default value | Description
 --------- | -------- | ------------- | -----------
 `book_id` | + | | `book_id` for search related
@@ -23,6 +25,7 @@ Parameter | Required | Default value | Description
 
 ### `searchTagged(tag_id, page, sort)`
 Returns `Search` URL for tag's ID.
+
 Parameter | Required | Default value | Description
 --------- | -------- | ------------- | -----------
 `tag_id` | + | | Tag's ID
@@ -31,12 +34,14 @@ Parameter | Required | Default value | Description
 
 ### `bookDetails(book_id)`
 Returns URL for getting `Book`.
+
 Parameter | Required | Default value | Description
 --------- | -------- | ------------- | -----------
 `book_id` | + | | Book's ID
 
 ### `getPage(media_id, page)`
 Returns page's image URL for `Book`'s `media_id`.
+
 Parameter | Required | Default value | Description
 --------- | -------- | ------------- | -----------
 `media_id` | + | | Book's `media_id`
@@ -44,6 +49,7 @@ Parameter | Required | Default value | Description
 
 ### `getThumb(media_id, page)`
 Returns page's thumbnail image URL for `Book`'s `media_id`.
+
 Parameter | Required | Default value | Description
 --------- | -------- | ------------- | -----------
 `media_id` | + | | Book's `media_id`
@@ -52,18 +58,21 @@ Parameter | Required | Default value | Description
 
 ### `getCover(media_id)`
 Returns `Book`'s cover image URL.
+
 Parameter | Required | Default value | Description
 --------- | -------- | ------------- | -----------
 `media_id` | + | | Book's `media_id`
 
 ### `parseBook(data)`
 Returns `Book`.
+
 Parameter | Required | Default value | Description
 --------- | -------- | ------------- | -----------
 `data` | + | | Data for parse.
 
 ### `parseSearch(data)`
 Returns `Search`.
+
 Parameter | Required | Default value | Description
 --------- | -------- | ------------- | -----------
 `data` | + | | Data for parse.
