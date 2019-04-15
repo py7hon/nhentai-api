@@ -1,0 +1,1 @@
+module.exports = require('./nhentai/API.js');

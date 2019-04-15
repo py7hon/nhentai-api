@@ -1,0 +1,22 @@
+{
+  "name": "nhentai-api",
+  "version": "2.0.5",
+  "description": "Update Nhentai api wrapper.",
+  "main": "exportAPIs.js",
+  "author": "Yaroslav Vorobev <vorobevyaroslav@googlemail.com>",
+  "dependencies": {},
+  "scripts": {
+    "test": "node ./tests/tagSearch.js"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "r18",
+    "adult",
+    "api",
+    "nhentai",
+	"unblock",
+	"proxies",
+	"CORS"
+  ],
+  "license": "ISC"
+}
