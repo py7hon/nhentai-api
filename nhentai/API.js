@@ -11,7 +11,8 @@ class nhentaiAPI {
 	constructor(ssl = true) {
 		let protocol = 'http' + (ssl ? 's' : '') + '://';
 		this.domains = {
-			main: protocol + 'id.nhent.ai', // indonesia server proxy
+			main: protocol + 'nhentai.net', // original api website
+		//	main: protocol + 'id.nhent.ai', // indonesia server proxy
 		//	main: protocol + 'eu.nhent.ai', europe server proxy
 		//	main: protocol + 'us.nhent.ai', us server proxy
 		//	main: protocol + 'jp.nhent.ai', japan server proxy
