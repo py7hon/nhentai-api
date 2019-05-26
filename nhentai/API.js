@@ -11,7 +11,8 @@ class nhentaiAPI {
 	constructor(ssl = true) {
 		let protocol = 'http' + (ssl ? 's' : '') + '://';
 		this.domains = {
-			main: protocol + 'nhentai.net', // original api website
+			main: protocol + 'nhent.ai',
+		//	main: protocol + 'nhentai.net', // original api website
 		//	main: protocol + 'id.nhent.ai', // indonesia server proxy
 		//	main: protocol + 'eu.nhent.ai', europe server proxy
 		//	main: protocol + 'us.nhent.ai', us server proxy
@@ -23,8 +24,8 @@ class nhentaiAPI {
 		//	main: protocol + 'uk.nhent.ai', uk server proxy
 		//	main: protocol + 'kr.nhent.ai', korea server proxy
 		//	main: protocol + 'ca.nhent.ai', canada server proxy
-			images: protocol + 'i.bakaa.me',
-			thumbs: protocol + 'kontol.nhent.ai'
+			images: protocol + 'cdn.nhent.ai',
+			thumbs: protocol + 't.nhent.ai'
 		};
 		this.apis = {
 			search: this.domains.main + '/api/galleries/search?query={QUERY}',
